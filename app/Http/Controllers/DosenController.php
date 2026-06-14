@@ -16,3 +16,4 @@ public function biodata(){
     $pelajaran = ["Algoritma & Pemrograman","Kalkulus","Pemrograman Web"];
     return view('biodata',['nama' => $nama , 'matkul' => $pelajaran]);
 }
+}
