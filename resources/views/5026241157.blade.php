@@ -17,6 +17,7 @@ background-color:#e9ecef;
 font-family:'Open Sans', sans-serif;
 }
 
+
 .section{
 padding:70px 0;
 text-align:center;

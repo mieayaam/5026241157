@@ -20,7 +20,7 @@ Route::get('pertemuan5', function () {
 Route::get('dosen', [DosenController::class, 'index']);
 Route::get('biodata', [DosenController::class, 'biodata']);
 
-<<<<<<< HEAD
+
 Route::get('/pegawai', [PegawaiController::class, 'index']);
 
 Route::get('/nilaikuliah', [NilaikuliahController::class, 'index']);
@@ -47,8 +47,7 @@ Route::get('/template', function () {
     return view('template');
 });
 
-//route 5026241157 
+//route 5026241157
 Route::get('/5026241157', function () {
     return view('5026241157');
 });
->>>>>>> f6a4b948a2d8df62f4b93706907e92d2e08a70eb

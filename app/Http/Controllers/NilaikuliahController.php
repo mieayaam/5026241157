@@ -30,5 +30,5 @@ public function simpan(Request $request)
     ]);
 
     return redirect('/nilaikuliah');
-}
+ }
 }
