@@ -12,14 +12,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> f6a4b948a2d8df62f4b93706907e92d2e08a70eb
     <style>
         .open-sans-judul {
         font-family: "openSans", sans-serif;
         font-optical-sizing: auto;
         font-weight: normal;
         font-style: normal;
+<<<<<<< HEAD
         font-variation-settings:
+=======
+        font-variation-settings:
+>>>>>>> f6a4b948a2d8df62f4b93706907e92d2e08a70eb
         "wdh" 100;
 
         }

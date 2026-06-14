@@ -47,7 +47,11 @@
             box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
         }
 
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> f6a4b948a2d8df62f4b93706907e92d2e08a70eb
 
     </style>
 </head>
@@ -145,6 +149,7 @@
         Selain itu, juga mendukung poin 17 mengenai Kemitraan untuk Mencapai Tujuan. (HUMAS ITS)
     </p>
 
+
     <p id="publish" style="text-decoration: underline;">
         Reporter: Naurah Fitri
     </p>
@@ -156,4 +161,6 @@
 
 </body>
 
+<<<<<<< HEAD
 </html>
+

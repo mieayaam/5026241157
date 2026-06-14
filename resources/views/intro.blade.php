@@ -14,10 +14,14 @@ in the source         code,
 ignores it.
      </p>
      <p>
+<<<<<<< HEAD
         <img
+
            src="https://www.its.ac.id/wp-content/uploads/2026/01/COLLADE-768x549.jpg"
            width="400px">
      </p>
 </body>
 
+<<<<<<< HEAD
 </html>
+
