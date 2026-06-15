@@ -4,13 +4,14 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DosenController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\NilaikuliahController;
+use App\Http\Controllers\MypegawaiController;
 
 Route::get('/', function () {
     return view('main');
 });
 
 Route::get('halo', function () {
-	return "<h1>Halo, Selamat datang</h1> di tutorial laravel <i>www.malasngoding.com</i>";
+    return "<h1>Halo, Selamat datang</h1> di tutorial laravel <i>www.malasngoding.com</i>";
 });
 
 Route::get('pertemuan5', function () {
@@ -20,13 +21,17 @@ Route::get('pertemuan5', function () {
 Route::get('dosen', [DosenController::class, 'index']);
 Route::get('biodata', [DosenController::class, 'biodata']);
 
-
 Route::get('/pegawai', [PegawaiController::class, 'index']);
 
 Route::get('/nilaikuliah', [NilaikuliahController::class, 'index']);
 Route::get('/nilaikuliah/tambah', [NilaikuliahController::class, 'tambah']);
 Route::post('/nilaikuliah/simpan', [NilaikuliahController::class, 'simpan']);
-=======
+
+Route::get('/eas', [MypegawaiController::class, 'index']);
+Route::get('/eas/tambah', [MypegawaiController::class, 'tambah']);
+Route::post('/eas/store', [MypegawaiController::class, 'store']);
+Route::get('/eas/view/{kodepegawai}', [MypegawaiController::class, 'view']);
+
 //route intro
 Route::get('/intro', function () {
     return view('intro');
@@ -50,4 +55,4 @@ Route::get('/template', function () {
 //route 5026241157
 Route::get('/5026241157', function () {
     return view('5026241157');
-});d
+});
