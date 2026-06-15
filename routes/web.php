@@ -50,4 +50,4 @@ Route::get('/template', function () {
 //route 5026241157
 Route::get('/5026241157', function () {
     return view('5026241157');
-});
+});d
